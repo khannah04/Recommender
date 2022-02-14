@@ -1,0 +1,14 @@
+import pandas as pd
+import numpy as np
+from scipy.sparse import csr_matrix
+from sklearn.neighbors import NearestNeighbors
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+movies = pd.read_csv("../input/movie-lens-small-latest-dataset/movies.csv")
+ratings = pd.read_csv("../input/movie-lens-small-latest-dataset/ratings.csv")
+
+#print out the first few rows of the dataset
+#movies.head() 
+#ratings.head()
